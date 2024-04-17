@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table{
+              
+            border-collapse: collapse;  
+            text-align: center; 
+        color: #c0bbbb ;           
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+           
+        }
+        tr :nth-child(even){
+            background-color:#008000;
+        }
+        tr :nth-child(odd){
+            background-color:#ff0000;
+        }
+        th:hover{
+            color: blue;
+        }
+        td:hover{
+            color:pink;
+            font-weight: bold;
+        }
+        .theory{
+            background-color: black;
+            color: aqua;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <th>country</th>
+            <th>country code </th>
+            <th>country email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>india.com</td>
+        </tr>
+        <tr>
+            <td>America</td>
+            <td>USA</td>
+            <td>us.com</td>
+        </tr>
+        <tr>
+            <td>japan</td>
+            <td>jn</td>
+            <td>jn.com</td>
+        </tr>
+    </table> 
+    <table>
+        <tr>  
+            <th colspan="2">Country</th>
+            <td>India</td>
+            <td>Japan</td>
+            
+        </tr>
+        <tr>
+            <th rowspan="2">CODE</th>
+            <td>IN</td>
+            <td>JP</td>    
+        </tr>  
+
+    </table>
+ <table>
+    <tr>
+    <th style="color: yellow;">name</th>
+    <th style="color: aqua;">branch</th>
+    <th>roll no</th> 
+    <th>subject</th>
+    </tr>
+    <tr>
+        <td>sandeep</td>
+        <td>mechanical</td>
+        <td>2215413</td>
+        <td class="theory">theory of machine</td>
+    </tr>
+ </table>
+ <table>
+    <tr>
+        <th>first name</th>
+        <th>last name</th>
+    </tr>
+    <tr>
+
+    </tr>
+ </table>
+</body>
+</html>
